@@ -89,10 +89,10 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href={""}
+                href={"/about"}
                 className="group flex items-center gap-1 hover:text-[#FB2E86]"
               >
-                <p>Products</p>
+                <p>About</p>
                 <Image
                   src={"/icons/arrow-down-p.svg"}
                   alt="env"
@@ -185,8 +185,8 @@ const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href={"/products"} className="hover:text-[#FB2E86]">
-                      Products
+                    <Link href={"/about"} className="hover:text-[#FB2E86]">
+                      About
                     </Link>
                   </li>
                   <li>
