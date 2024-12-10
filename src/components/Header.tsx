@@ -15,11 +15,11 @@ const Header = () => {
         <div className="hidden lg:flex items-center gap-6">
           <div className="flex items-center gap-2">
             <Image src={"/icons/envelope.svg"} alt="env" width={16} height={16} />
-            <p>akbardal@gmail.com</p>
+            <p>Kingfarhadalilaghari@gmail.com</p>
           </div>
           <div className="flex items-center gap-2">
             <Image src={"/icons/phone.svg"} alt="phone" width={16} height={16} />
-            <p>(0321)3011912</p>
+            <p>(0324)8834244</p>
           </div>
         </div>
         <div className="flex items-center gap-4 py-3">

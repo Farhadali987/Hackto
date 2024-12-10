@@ -86,7 +86,7 @@ const AboutPage = () => {
           {[
             { name: "Selina Gomez", image: "/images/client1.jpg" },
             { name: "John Doe", image: "/images/client2.jpg" },
-            { name: "akbar", image: "/images/client3.png" },
+            { name: "Farhad Ali", image: "/images/client3.jpeg" },
           ].map((client, index) => (
             <div key={index} className="flex flex-col items-center">
               <Image
