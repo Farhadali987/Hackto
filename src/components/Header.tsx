@@ -25,6 +25,7 @@ const Header = () => {
         <div className="flex items-center gap-4 py-3">
           <div className="flex items-center gap-1">
             <p>English</p>
+
             <Image src={"/icons/arrow-down.svg"} alt="env" width={16} height={16} />
           </div>
           <div className="flex items-center gap-1">
