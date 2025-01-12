@@ -18,7 +18,7 @@ const Footer = () => {
             <input
               type="text"
               placeholder="Enter Email Address"
-              className="outline-none px-4 py-2 flex-grow text-sm"
+              className="outline-none px-4 py-2 flex-grow text-sm w-[calc(100%-80px)]"
             />
             <Button variant="destructive" className="px-4 py-2 text-sm">
               Sign Up

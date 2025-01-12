@@ -8,7 +8,7 @@ export default function DiscountSection() {
       <div className="flex flex-col items-center py-16 gap-6">
         <h2 className="text-3xl font-bold text-blue-900 font-sans">Discount Item</h2>
         <div className="space-x-4 text-pink-600 font-semibold">
-          <ul className="flex items-center gap-8 text-[#0D0E43] font-semibold">
+          <ul className="flex items-center justify-center flex-shrink-0 gap-4 sm:gap-8 text-[#0D0E43] font-semibold">
             <li>
               <Link
                 href={""}

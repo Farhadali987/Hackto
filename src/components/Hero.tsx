@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="relative  flex flex-col md:flex-row items-center bg-[#F2F0FF] px-4 sm:px-10 md:px-40">
+    <div className="relative flex flex-col md:flex-row items-center bg-[#F2F0FF] px-4 sm:px-10 md:px-40">
       <div className="space-y-7 px-4 md:px-10">
       <div className="">
         <Image
@@ -15,21 +15,29 @@ const Hero = () => {
         />
       </div>
         <p className="text-[#FB2E86]">Best Furniture For Your Castle....</p>
-        <h1 className="text-4xl text-[#151875] font-sans">New Furniture Collection Trends in 2020</h1>
+        <h1 className="text-4xl text-[#151875] font-bold">New Furniture Collection Trends in 2020</h1>
         <p className="text-[#8A8FB9]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
           adipiscing in phasellus non in justo.
         </p>
         <Button variant={"destructive"}>Shop Now</Button>
       </div>
-      <div>
+      <div className="relative">
         <Image
           src={"/images/chair.png"}
           alt="chair"
           width={600}
           height={600}
         />
+        <Image
+          src={"/images/offtag.png"}
+          alt="chair"
+          width={135}
+          height={135}
+          className="hidden md:block absolute top-6 -right-28 w-[8rem]"
+        />
       </div>
+      
     </div>
   );
 };
